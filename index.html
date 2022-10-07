@@ -1,0 +1,227 @@
+<!-- Etiqueta para indicar que es un fichero HTML 5-->
+<!doctype html>
+<!-- Etiqueta html que define la raíz del documento-->
+<html lang="es">
+<!-- Etiqueta head que define información sobre el documento-->
+<head>
+  <!-- metadatos sobre la codificación de caracteres que se va a utilizar (utf-8) y viewport es el área de la ventana donde va estar disponible nuestro contenido-->
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <!-- CSS de Bootstrap Mediante la etiqueta link -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <title>Ecuador</title>
+</head>
+
+<!-- En la etiqueta body va el contenido a mostrar-->
+
+<body>
+<!--Barra de navegación-->
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+  <a class="navbar-brand" href="index.html"> <img src="img/logo-ecuador.png" height="40" alt="Logotipo Quilotoa"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="quilotoa.html">Quilotoa</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="galapagos.html">Galápagos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Quito.html">Quito</a>
+    </ul>
+  </div>
+</nav>
+
+<!--Carrusel-->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/ballena.jpg" class="d-block w-100" alt="Ballena">
+    </div>
+    <div class="carousel-item">
+      <img src="img/caiman.jpg" class="d-block w-100" alt="Caimán">
+    </div>
+    <div class="carousel-item">
+      <img src="img/rana2.jpg" class="d-block w-100" alt="Rana">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!--Información turistica  -->
+
+<div class="container py-2">
+  <div class="row">
+    <div class="col">
+      <h1 class="text-center font-weight-bold py-2">Sítios turísticos de Ecuador</h1>
+      <p class="text-left">
+        Les presentamos los mejores lugares turísticos de Ecuador,
+        con una amplia gama de diversión y aventura.
+        Ecuador es uno de los países que dispone de cientos de destinos turísticos,
+        desde la sierra, costa, oriente y Galápos, en esta páginas se muestan
+        algunos de sitios más famosos para visitar en tus vacaciones en Ecuador.
+      </p>
+      <p>
+        En ningún otro lugar vas a poder escalar una montaña un día, caminar por el bosque nuboso al día
+        siguiente y terminar en las aguas blancas de la Amazonia. Ecuador esconde las más hermosas y
+        paradisíacas playas en la costa del Pacífico, inmersas entre impresionantes paisajes naturales.
+        Una de sus más preciosas joyas; las islas Galápagos es considerado el atractivo turístico más famoso del país.
+        Quito; la capital, es la primera ciudad declarada Patrimonio Cultural de la Humanidad por parte de la UNESCO.
+        Considerada la ciudad más importante culturalmente de Sudamérica, así como la segunda ciudad más importante del
+        imperio Inca.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!--  Cards con información de sitios turísticos, usé un margen py-2 para dar espacios blancos-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-lg-4 py-2 justify-content-center text-center">
+        <div class="card">
+          <img src="img/quiloCuad.jpg" class="card-img-top" alt="Laguna del Quilotoa">
+          <div class="card-body">
+            <h5 class="card-title">Laguna del Quilotoa</h5>
+            <p class="card-text text-justify">Descubre la maravillosa laguna azul ubicada en la sierra ecuatoriana, un lugar
+              mágico donde espíritu se encuentra con la naturalesa.</p>
+            <a href="quilotoa.html" class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eyeglasses" viewBox="0 0 16 16">
+                <path d="M4 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm2.625.547a3 3 0 0 0-5.584.953H.5a.5.5 0 0 0 0 1h.541A3 3 0 0 0 7 8a1 1 0 0 1 2 0 3 3 0 0 0 5.959.5h.541a.5.5 0 0 0 0-1h-.541a3 3 0 0 0-5.584-.953A1.993 1.993 0 0 0 8 6c-.532 0-1.016.208-1.375.547zM14 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+              </svg>
+              Leer más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 py-2 justify-content-center text-center">
+        <div class="card">
+          <img src="img/galaCuad.jpg" class="card-img-top" alt="Islas Galápogos">
+          <div class="card-body">
+            <h5 class="card-title">Islas Galápogos</h5>
+            <p class="card-text text-justify">Para los amantes de la naturaleza y la aventura, no podría existir un
+              destino turístico más emocionante que las
+              Islas Galápagos.</p>
+            <a class="btn btn-primary text-light " onclick="mensajeMantenimiento()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eyeglasses" viewBox="0 0 16 16">
+                <path d="M4 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm2.625.547a3 3 0 0 0-5.584.953H.5a.5.5 0 0 0 0 1h.541A3 3 0 0 0 7 8a1 1 0 0 1 2 0 3 3 0 0 0 5.959.5h.541a.5.5 0 0 0 0-1h-.541a3 3 0 0 0-5.584-.953A1.993 1.993 0 0 0 8 6c-.532 0-1.016.208-1.375.547zM14 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+              </svg>
+              Leer más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 py-2 justify-content-center text-center">
+        <div class="card">
+          <img src="img/uioCuad.jpg" class="card-img-top" alt="San Francisco de Quito">
+          <div class="card-body">
+            <h5 class="card-title">San Francisco de Quito</h5>
+            <p class="card-text text-justify">Quito es la capital de Ecuador ubicada al pie del majestuoso
+              volcán Pichincha, cuenta con el centro históico más bello de latinoamerica.</p>
+            <a href="Quito.html" class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eyeglasses" viewBox="0 0 16 16">
+                <path d="M4 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm2.625.547a3 3 0 0 0-5.584.953H.5a.5.5 0 0 0 0 1h.541A3 3 0 0 0 7 8a1 1 0 0 1 2 0 3 3 0 0 0 5.959.5h.541a.5.5 0 0 0 0-1h-.541a3 3 0 0 0-5.584-.953A1.993 1.993 0 0 0 8 6c-.532 0-1.016.208-1.375.547zM14 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+              </svg>
+              Leer más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Video campaña All You Need Is Ecuador-->
+<section id="MostrarVideo" style="display: none;">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zVAtiPmDlf4" allowfullscreen></iframe>
+      </div>
+<!--      <div class="col-12">-->
+<!--        <a class="btn btn-primary text-light " onclick="meguta()">-->
+<!--        <p id="conteoMeGusta"></p>-->
+<!--      </div>-->
+    </div>
+  </div>
+</div>
+</section>
+<!--Banner video -->
+
+<div class="container py-5" id="videoEcuador" style="display: block;">
+  <div class="row">
+    <div class="col">
+      <img src="img/BannerVideo.jpg" class="img-fluid" alt="Responsive image">
+    </div>
+  </div>
+</div>
+
+<div class="container justify-content-center text-center">
+  <div class="row">
+    <div class="col">
+      <button type="button" class="btn btn-link" onclick="mostrar()">Mostrar video</button>
+    </div>
+    <div class="col">
+      <button type="button" class="btn btn-link" onclick="volver()">Ocultar video</button>
+    </div>
+  </div>
+</div>
+
+
+<!--Boton para regresar al menú superior-->
+
+<div class="container py-3">
+  <div class="row">
+    <div class="col">
+      <a href="#" class="float-right">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+        </svg>
+        Regresar</a>
+    </div>
+  </div>
+</div>
+<div class="row"></div>
+
+<!--    Final o contactenos, hace referencia al autor de sitio web,se utilizó código HTML y un estilo Inline para esta sección-->
+<footer>
+  <p style="background-color:#0d55ab; margin-top: 5px; height: 100px; text-align: center; color: gainsboro;
+    font-size: 80%; margin-bottom: 0">
+    <br>
+    <br>
+    Diseñado por: Ángel Bastidas<br>
+    - Diseño y Tecnología Web Actividad 1 -
+  </p>
+</footer>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- Scripts que vamos a utilizar (jQuery, Popper y Bootstrap)-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/funcion.js"></script>
+</body>
+</html>
